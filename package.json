@@ -1,0 +1,13 @@
+
+  {
+    "name": "schoolyard-node",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "npm run setup:server",
+      "setup:app": "npm run setup:server && npm run setup:client",
+      "setup:client": "cd schoolYard-Node.client && npm i",
+      "setup:server": "cd schoolYard-Node && npm i",
+      "start": "node schoolYard-Node/index.js"
+    }
+  }
+  
